@@ -81,6 +81,25 @@ body {
   color: var(--text-muted);
 }
 
+.skills {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.625rem;
+}
+
+.skills li {
+  padding: 0.4rem 0.875rem;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--text);
+  background: var(--accent-soft);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+}
+
 .contacts {
   list-style: none;
   margin: 0;
